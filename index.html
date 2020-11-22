@@ -6,6 +6,7 @@
     <title>Component Library</title>
 </head>
 <body>
+    <link href="styles.css" rel='stylesheet'
     <h1>Srividya's component library</h1>
     <p>I am attending neog.camp and I want to make a library which would make all 
         my projects look good and consistent
@@ -17,33 +18,34 @@
     <h2>This is the second biggest heading h2</h2>
     <p>This is normal text. Long running text would look like this on your website. This will auto fold based on the width</p>
     <small>This is relatively smallet text</small>
-
+    <p>this parahgraph will have a <strong>bold </strong>text</p>
     <hr>
     <h2>@containers</h2>
 
     <h3>@fluidcontainer</h3>
-    <div>this is a fluid container and will go till the end of the page</div>
+    <div class="container fluid-container">this is a fluid container and will go till the end of the page</div>
 
     <h3>@centercontainer</h3>
-    <div>This is going to be a center container. It will go till a given width and center content.</div>
+    <div class="container center-container">This is going to be a center container. It will go till a given width and center content.</div>
 
     <hr>
     <h2>@links</h2>
 
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="link primary-link" href="/">Primary link</a>
+    <a class="link secondary-link" href="/">Secondary link</a>
 
     <hr>
     <h2>@lists</h2>
     <h3>Unordered list</h3>
-    <ul>
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
+    <p>this list will have no bullet</p>
+    <ul class="list-no-bullet">
+        <li class="list-item-inline">item one</li>
+        <li class="list-item-inline">item two</li>
+        <li class="list-item-inline">item three</li>
     </ul>
 
     <h3>Unordered inline list</h3>
-    <ul>
+    <ul class="list-no-bullet">
         <li>inline item one</li>
         <li>inline item two</li>
         <li>inline item three</li>
@@ -51,33 +53,33 @@
 
     <h3>Reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
     </ol>
-
+    <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>I am brand</div>
-        <ul>
-            <li>
-                <a href="\">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">I am brand</div>
+        <ul class="list-no-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="\">Home</a>
             </li>
-            <li>
-                <a href="\">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="\">Projects</a>
             </li>
-            <li>
-                <a href="\">Blogs</a>
+            <li class="list-item-inline">
+                <a class="link" href="\">Blogs</a>
             </li>
         </ul>
     </nav>
 
     <hr>
     <h2>@header</h2>
-    <header>
-    <img src="image folder/hero.svg" />
-    <h1>heading inside hero</h1>
+    <header class="hero">
+    <img class="hero-image" src="image folder/hero.svg" />
+    <h1 class="hero-heading">This is SriV's <span class="heading-inverted">Portfolio </span></span></h1>
     </header>
 
     <hr>
