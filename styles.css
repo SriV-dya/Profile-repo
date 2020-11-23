@@ -29,6 +29,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+   
 }
 
 .link-primary {
@@ -127,6 +128,11 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link {
