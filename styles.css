@@ -143,3 +143,7 @@ hr {
     padding-inline-start: 0px;
 }
 }
+
+.content-padding{
+    padding-top: 0.5rem;
+}
