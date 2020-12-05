@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #DD571C;
-    --off-white: #6B7280;
+    --off-white: #374151;
     --dark-gray: #6B7280;
 }
 
@@ -51,6 +51,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    
 }
 
 .list-item-inline {
@@ -88,6 +89,7 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    background-color: #1F2937;
 
 }
 
@@ -111,7 +113,7 @@ hr {
 
 .section {
     padding: 2rem;
-    background-color: #4B5563;
+    background-color:#1F2937;
 
 }
 
@@ -162,4 +164,13 @@ hr {
 }
 #introp{
     color: darkorange;
+}
+#creativesp{
+    color: white;
+}
+.prothreep{
+    color:white;
+}
+.smallp{
+    color: white;
 }
